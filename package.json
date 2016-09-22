@@ -1,0 +1,16 @@
+{
+  "name": "ls-emu",
+  "version": "0.1.0",
+  "description": "emulates the ls command",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --recursive test",
+    "unit": "mocha --recursive test/unit",
+    "integration": "mocha --recursive test/integration"
+  },
+  "author": "",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.0.2"
+  }
+}
